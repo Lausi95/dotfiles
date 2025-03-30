@@ -12,7 +12,11 @@ return {
 		Color.new("cc", "#222222")
 		Color.new("sl", "#111111")
 
-		Color.new("normal", "#000000")
+		Color.new("keyword", "#80CBC4")
+		Color.new("type", "#9FA8DA")
+		Color.new("str", "#C1AA88")
+
+		Color.new("normal", "#111111")
 		Color.new("normalText", "#AAAAAA")
 
 		local colors = colorbuddy.colors
@@ -28,5 +32,10 @@ return {
 		Group.new("LineNrAbove", colors.ln, nil)
 		Group.new("LineNrBelow", colors.ln, nil)
 		Group.new("LineNr", colors.orange:light(), nil)
+
+		Group.new("Function", colors.orange:light(), nil)
+		Group.new("Keyword", colors.keyword, nil)
+		Group.new("Type", colors.type, nil)
+		Group.new("String", colors.str, nil)
 	end,
 }

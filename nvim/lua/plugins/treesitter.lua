@@ -39,6 +39,7 @@ return {
 				"dockerfile",
 				"gitignore",
 				"c",
+				"hcl",
 			},
 		})
 	end,
